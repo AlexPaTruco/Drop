@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+    xmlns:gap       = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android"
+    id              = "net.projectace.fireteam"
+    version         = "1.0.0">
+
+    <name>Drop</name>
+
+    <description>
+        Drop your moments
+    </description>
+
+    <author href="http://projectace.net" email="alexander.db27@gmail.com">
+        Project / ACE
+    </author>
+    <icon src="img/logo.png" />
+    <gap:splash src="img/logo.png" />
+    <access origin="*"/> <!-- allow local pages -->
+ 
+</widget>
