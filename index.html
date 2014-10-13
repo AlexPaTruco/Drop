@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>DropME | Login</title>
+        <meta name="description" content="DropMe is an interactive Application tha lets you drop digital moments for others to pick up and share! Start sharing!"/>
+        <link rel="stylesheet" href="Foundation5/css/foundation.css"/>
+        <script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js"></script>
+        <script src="phonegap.js"></script>
+        <script type="text/javascript" charset="utf-8" src="json2.js"></script>   
+        <script src="Foundation5/js/vendor/modernizr.js"></script>
+    </head>
+
+    <body>
+        <div class="off-canvas-wrap" data-offcanvas>
+            <div class="inner-wrap">
+                <nav class="tab-bar bground">
+                    <section class="middle tab-bar-section">
+                        <h1 class="title">DropME</h1>
+                    </section>
+                </nav>
+
+                <section class="main-section">
+                    <div class="row">
+                        <div class="large-2 columns"> </div>
+                        <div class="large-8 large-centered columns">
+                            <br />
+                            <img src="img/logo.png" alt="DropME_Logo"/>
+                            <br />
+                            <div id="noti"></div>
+                            <label>
+                                <input id="email" type="text" placeholder="Email"/>
+                            </label>
+                            <label>
+                                <input id="password" type="password" placeholder="Password" />
+                            </label>
+                            <center><a class="button" href="#" onclick="lgin('nose')">Login!</a></center>
+                            <br />
+                        </div>
+                        <div class="large-2 columns"> </div>
+                    </div>
+                </section>
+
+                <a class="exit-off-canvas"></a>
+
+            </div>
+        </div>
+        <script src="Foundation5/js/vendor/jquery.js"></script>
+        <script src="Foundation5/js/foundation.min.js"></script>
+        <script>
+                                  $(document).foundation();
+        </script>
+    </body>
+
+</html>
