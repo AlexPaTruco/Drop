@@ -17,7 +17,7 @@
         Project / ACE
     </author>
     <icon src="img/icon.png" />
-    <gap:splash src="img/logo.png" width="120" height="280"/>
+    <gap:splash src="img/logo.png" gap:platform="android" width="120" height="280"/>
     <access origin="*"/> <!-- allow local pages -->
  
 </widget>
