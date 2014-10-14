@@ -2,10 +2,10 @@
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns       = "http://www.w3.org/ns/widgets"
-    xmlns:gap       = "http://phonegap.com/ns/1.0"
-    xmlns:android   = "http://schemas.android.com/apk/res/android"
-    id              = "net.projectace.drop"
-    version         = "1.0.0">
+        xmlns:gap       = "http://phonegap.com/ns/1.0"
+        xmlns:android   = "http://schemas.android.com/apk/res/android"
+        id              = "net.projectace.drop"
+        version         = "1.0.0">
 
     <name>Drop</name>
 
@@ -17,7 +17,13 @@
         Project / ACE
     </author>
     <icon src="img/icon.png" />
-    <gap:splash src="img/logo.png" gap:platform="android" width="120" height="280"/>
+    <gap:splash src="img/logo.png" gap:platform="android" gap:qualifier="ldpi" />
+    <gap:splash src="img/logo.png" gap:platform="android" gap:qualifier="mdpi" />
+    <gap:splash src="img/logo.png" gap:platform="android" gap:qualifier="hdpi" />
+    <gap:splash src="img/logo.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <gap:splash src="img/logo.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+    <gap:splash src="img/logo.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+    <gap:splash src="img/logo.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
     <access origin="*"/> <!-- allow local pages -->
  
 </widget>
