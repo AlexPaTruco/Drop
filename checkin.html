@@ -28,7 +28,7 @@
                     <ul class="off-canvas-list">
                         <li><label id="username">Menu</label></li>
                         <li><center><img class="img-circle" id="pic" src="" alt="profile_pic"/></center></li>
-                        <li><a href="checkin.html">Check-In</a></li>
+                        <li><a href="#">Check-In</a></li>
                         <li><a href="#">Drop</a></li>
                         <li><a href="#">Profile</a></li>
                         <li><a href="#">Settings</a></li>
@@ -40,7 +40,8 @@
                 <section class="main-section">
                     <div class="row">
                         <div class="large-centered large-12 columns">
-                            <img src="img/logo.png" alt="logo"/>
+                            <p id="geolocation">Finding geolocation...</p>
+                            <button class="button" onclick="getLocation()">Check-In</button>
                         </div>
                     </div>
                 </section>
@@ -52,6 +53,8 @@
         <script src="Foundation5/js/vendor/jquery.js"></script>
         <script src="Foundation5/js/foundation.min.js"></script>
         <script src="js/functions.js"></script>
+        <script src="phonegap.js"></script>
+        <script src="js/pg.js"></script>
         <script>
                                     $(document).foundation();
         </script>
