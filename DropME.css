@@ -1,8 +1,11 @@
 .nav-bar
 {
-	background: rgb(245,2,255);
+    background: rgb(245,2,255);
 }
-.img-circle{border-radius:50%; width: 148px;
-    height: 148px;}
- .img-circle2{border-radius:50%; width: 128px;
-    height: 128px;}
+.img-circle{width: 200px;
+            height: 200px;
+            border-radius: 150px;
+            -webkit-border-radius: 150px;
+            -moz-border-radius: 150px;}
+.img-circle2{border-radius:50%; width: 128px;
+             height: 128px;}
