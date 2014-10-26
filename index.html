@@ -11,6 +11,13 @@
         <script src="phonegap.js"></script>
         <script type="text/javascript" charset="utf-8" src="json2.js"></script>   
         <script src="Foundation5/js/vendor/modernizr.js"></script>
+        <script src="js/functions.js"></script>
+        <script>
+            if(window.localStorage.getItem("userid"))
+            {
+                window.location = "feed.html";
+            }
+        </script>
     </head>
 
     <body>
@@ -36,7 +43,7 @@
                             <label>
                                 <input id="password" type="password" placeholder="Password" />
                             </label>
-                            <center><a class="button" href="#" onclick="lgin('nose')">Login!</a></center>
+                            <center><a class="button" href="#" onclick="Login()">Login!</a></center>
                             <br />
                         </div>
                         <div class="large-2 columns"> </div>
