@@ -6,6 +6,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 //
 function onDeviceReady() {
     //navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    alert("Device Ready!");
 }
 
 function getLocation()
