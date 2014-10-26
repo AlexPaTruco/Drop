@@ -27,6 +27,6 @@
     <gap:splash src="img/icon.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
     <access origin="*"/> <!-- allow local pages -->
     
-    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <plugin name="Geolocation" value="org.apache.cordova.geolocation" />
  
 </widget>

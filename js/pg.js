@@ -10,6 +10,7 @@ function onDeviceReady() {
 
 function getLocation()
 {
+    alert("looking...");
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
 }
 
